@@ -31,7 +31,7 @@ export default function NavbarCommunity() {
         </Link>
         <div className="border-b-2 border-black" />
         <div className="font-poppins text-4xl">
-          Community PLacholder Text
+          Community Placholder Text
         </div>
       </div>
       <div className="w-[100%] h-[100%] about-us-image rounded-r-[24px]" />

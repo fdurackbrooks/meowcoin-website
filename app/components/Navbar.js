@@ -55,10 +55,10 @@ export default function Navbar() {
         </div>
         {menuOpen && (
           <div className="relative top-6 grid grid-cols-4 h-[100%]">
-            <div className="relative font-grandstander text-5xl flex flex-col gap-12 left-8 top-12">
+            <div className="relative font-grandstander text-5xl flex flex-col gap-12 left-6 top-12">
               <Link
                 className={`hover:text-[#BC8312] transition-all ${
-                  lastHovered === "about-us" ? "text-[#BC8312]" : ""
+                  lastHovered === "about-us" ? "text-[#BC8312] text-6xl" : ""
                 }`}
                 href="/about-us"
                 onMouseEnter={() => handleLinkHover("about-us")}
@@ -67,7 +67,7 @@ export default function Navbar() {
               </Link>
               <Link
                 className={`hover:text-[#BC8312] transition-all ${
-                  lastHovered === "roadmap" ? "text-[#BC8312]" : ""
+                  lastHovered === "roadmap" ? "text-[#BC8312] text-6xl" : ""
                 }`}
                 href="/roadmap"
                 onMouseEnter={() => handleLinkHover("roadmap")}
@@ -76,7 +76,7 @@ export default function Navbar() {
               </Link>
               <Link
                 className={`hover:text-[#BC8312] transition-all ${
-                  lastHovered === "partners" ? "text-[#BC8312]" : ""
+                  lastHovered === "partners" ? "text-[#BC8312] text-6xl" : ""
                 }`}
                 href="/partners"
                 onMouseEnter={() => handleLinkHover("partners")}
@@ -85,7 +85,7 @@ export default function Navbar() {
               </Link>
               <Link
                 className={`hover:text-[#BC8312] transition-all ${
-                  lastHovered === "community" ? "text-[#BC8312]" : ""
+                  lastHovered === "community" ? "text-[#BC8312] text-6xl" : ""
                 }`}
                 href="/community"
                 onMouseEnter={() => handleLinkHover("community")}
@@ -94,7 +94,7 @@ export default function Navbar() {
               </Link>
               <Link
                 className={`hover:text-[#BC8312] transition-all ${
-                  lastHovered === "resources" ? "text-[#BC8312]" : ""
+                  lastHovered === "resources" ? "text-[#BC8312] text-6xl" : ""
                 }`}
                 href="/resources"
                 onMouseEnter={() => handleLinkHover("resources")}
@@ -103,7 +103,7 @@ export default function Navbar() {
               </Link>
               <Link
                 className={`hover:text-[#BC8312] transition-all ${
-                  lastHovered === "docs" ? "text-[#BC8312]" : ""
+                  lastHovered === "docs" ? "text-[#BC8312] text-6xl" : ""
                 }`}
                 href="https://docs.mewccrypto.com/"
                 onMouseEnter={() => handleLinkHover("docs")}
@@ -112,7 +112,7 @@ export default function Navbar() {
               </Link>
               <Link
                 className={`hover:text-[#BC8312] transition-all ${
-                  lastHovered === "explorer" ? "text-[#BC8312]" : ""
+                  lastHovered === "explorer" ? "text-[#BC8312] text-6xl" : ""
                 }`}
                 href="https://mewc.cryptoscope.io/"
                 onMouseEnter={() => handleLinkHover("explorer")}
