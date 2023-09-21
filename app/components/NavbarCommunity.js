@@ -31,11 +31,7 @@ export default function NavbarCommunity() {
         </Link>
         <div className="border-b-2 border-black" />
         <div className="font-poppins text-4xl">
-          Meowcoin is a cryptocurrency with a built in asset layer utilising the
-          KawPoW algorithm. We aim to integrate blockchain technology in the
-          animal sector, provide small scale miners with a profitable blockchain
-          to devote their hash to, and help all animals, big and small, through
-          philanthropic means.
+          Community PLacholder Text
         </div>
       </div>
       <div className="w-[100%] h-[100%] about-us-image rounded-r-[24px]" />
