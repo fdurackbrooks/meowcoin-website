@@ -26,15 +26,18 @@ export default function NavbarPartners() {
                 />
               </svg>
             </div>
-            <div className="font-poppins text-2xl">mewccrypto.com/resources</div>
+            <div className="font-poppins text-2xl">
+              mewccrypto.com/resources
+            </div>
           </div>
         </Link>
         <div className="border-b-2 border-black" />
         <div className="font-poppins text-4xl">
-          Since our launch in September 2022, Meowcoin has made significant
-          strides towards integrating blockchain technology into the animal sector.<br /><br />
-          Discover our journey as we continue to support small scale miners and
-          advance philanthropic initiatives for all animals.
+          discover an essential resources, including a curated list of reputable
+          mining pools, recommended wallet options, high-quality graphics, and
+          additional assets. Dive into our resources thoughtfully compiled to
+          enrich your Meowcoin journey and provide robust support within the
+          blockchain.
         </div>
       </div>
       <div className="w-[100%] h-[100%] about-us-image rounded-r-[24px]" />

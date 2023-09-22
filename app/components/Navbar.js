@@ -32,11 +32,11 @@ export default function Navbar() {
       <div
         className={`${
           menuOpen ? "h-[90%]" : "h-[120px]"
-        } w-[85%] bg-[#d7c47f] translate-x-[-50%] left-[50%] fixed rounded-b-[48px] p-[24px] transition-all`}
+        } w-[85%] bg-[#d7c47f] translate-x-[-50%] left-[50%] fixed rounded-b-[48px] p-[24px] transition-all z-20`}
       >
         <div className="flex justify-between">
           <button
-            className="font-poppins transition-all h-[72px] bg-white text-black rounded-[24px] w-[180px] text-3xl xl:block hidden hover:bg-[#BC8312] hover:text-white"
+            className="font-poppins transition-all h-[72px] bg-white text-black rounded-[24px] w-[200px] text-3xl xl:block hidden hover:bg-[#BC8312] hover:text-white"
             onClick={toggleMenu}
           >
             {menuOpen ? "Close" : "Menu"}
@@ -49,7 +49,7 @@ export default function Navbar() {
               </div>
             </div>
           </div>
-          <button className="font-poppins transition-colors h-[72px] bg-white text-black rounded-[24px] w-[180px] text-3xl xl:block hidden hover:bg-[#BC8312] hover:text-white">
+          <button className="font-poppins transition-colors h-[72px] bg-white text-black rounded-[24px] w-[200px] text-3xl xl:block hidden hover:bg-[#BC8312] hover:text-white">
             <Link href="/donations">Donations</Link>
           </button>
         </div>

@@ -26,12 +26,18 @@ export default function NavbarCommunity() {
                 />
               </svg>
             </div>
-            <div className="font-poppins text-2xl">mewccrypto.com/community</div>
+            <div className="font-poppins text-2xl">
+              mewccrypto.com/community
+            </div>
           </div>
         </Link>
         <div className="border-b-2 border-black" />
         <div className="font-poppins text-4xl">
-          Community Placholder Text
+          Our incredible community is the heart of Meowcoin. Connect with fellow
+          supporters, share your ideas, and stay updated on the latest
+          developments. At Meowcoin, we're more than just a cryptocurrency;
+          we're a community united by a common goal – to support animals through
+          blockchain technology.
         </div>
       </div>
       <div className="w-[100%] h-[100%] about-us-image rounded-r-[24px]" />

@@ -31,13 +31,11 @@ export default function NavbarRoadmap() {
         </Link>
         <div className="border-b-2 border-black" />
         <div className="font-poppins text-4xl">
-          Since our launch in September 2022, Meowcoin has made significant
-          strides towards integrating blockchain technology into the animal
-          sector.
-          <br />
-          <br />
-          Discover our journey as we continue to support small scale miners and
-          advance philanthropic initiatives for all animals.
+          Meowcoin's documentation is packed with insights into our
+          blockchain. Access whitepapers and technical guides to gain an
+          in-depth understanding of Meowcoin's architecture, features, and
+          future plans. Whether you're a developer or enthusiast, our
+          documentation gives you the tools you need to build with Meowcoin.
         </div>
       </div>
       <div className="w-[100%] h-[100%] about-us-image rounded-r-[24px]" />

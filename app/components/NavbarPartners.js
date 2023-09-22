@@ -31,10 +31,11 @@ export default function NavbarPartners() {
         </Link>
         <div className="border-b-2 border-black" />
         <div className="font-poppins text-4xl">
-          Since our launch in September 2022, Meowcoin has made significant
-          strides towards integrating blockchain technology into the animal sector.<br /><br />
-          Discover our journey as we continue to support small scale miners and
-          advance philanthropic initiatives for all animals.
+          Our partners are a big part of our mission. We believe in
+          working with like-minded organizations who share our passion for
+          blockchain technology and animal welfare. Explore our network of
+          partners, from blockchain enthusiasts to animal advocates. Together,
+          we aim to create a brighter future for all animals.
         </div>
       </div>
       <div className="w-[100%] h-[100%] about-us-image rounded-r-[24px]" />

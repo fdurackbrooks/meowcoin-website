@@ -5,6 +5,7 @@ export default function Home() {
   return (
     <div>
       <Navbar />
+      <div className="relative top-[120px] text-center">Yo</div>
     </div>
   );
 }

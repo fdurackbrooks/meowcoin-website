@@ -11,7 +11,7 @@ export default function NavbarRoadmap() {
           <div className="font-grandstander text-8xl">Explorer</div>
           <div className="relative flex gap-2 left-2">
             <div>
-            <svg
+              <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
                 viewBox="0 0 24 24"
@@ -31,10 +31,11 @@ export default function NavbarRoadmap() {
         </Link>
         <div className="border-b-2 border-black" />
         <div className="font-poppins text-4xl">
-          Since our launch in September 2022, Meowcoin has made significant
-          strides towards integrating blockchain technology into the animal sector.<br /><br />
-          Discover our journey as we continue to support small scale miners and
-          advance philanthropic initiatives for all animals.
+          The Meowcoin explorer is your portal to our blockchain's inner
+          workings. You can trace transactions, monitor block heights, and
+          explore the world of NFTs and assets within the Meowcoin ecosystem.
+          Gain deep insights into our decentralized ledger technology as you
+          navigate the blockchain.
         </div>
       </div>
       <div className="w-[100%] h-[100%] about-us-image rounded-r-[24px]" />
