@@ -3,7 +3,7 @@
 import Link from "next/link";
 import React, { useState } from "react";
 
-export default function NavbarPartners() {
+export default function NavbarResources() {
   return (
     <div className="w-[100%] h-max-minus-96 grid grid-cols-2 relative bg-white rounded-[24px] col-start-2 col-span-3">
       <div className="flex flex-col gap-4 p-[24px] ">

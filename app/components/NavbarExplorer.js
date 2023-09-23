@@ -3,7 +3,7 @@
 import Link from "next/link";
 import React, { useState } from "react";
 
-export default function NavbarRoadmap() {
+export default function NavbarExplorer() {
   return (
     <div className="w-[100%] h-max-minus-96 grid grid-cols-2 relative bg-white rounded-[24px] col-start-2 col-span-3">
       <div className="flex flex-col gap-4 p-[24px] ">
@@ -31,7 +31,7 @@ export default function NavbarRoadmap() {
         </Link>
         <div className="border-b-2 border-black" />
         <div className="font-poppins text-4xl">
-          The Meowcoin explorer is your portal to our blockchain's inner
+          The Meowcoin explorer is your portal to our blockchain&rsquo;s inner
           workings. You can trace transactions, monitor block heights, and
           explore the world of NFTs and assets within the Meowcoin ecosystem.
           Gain deep insights into our decentralized ledger technology as you

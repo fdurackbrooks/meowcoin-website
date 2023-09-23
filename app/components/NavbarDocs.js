@@ -3,7 +3,7 @@
 import Link from "next/link";
 import React, { useState } from "react";
 
-export default function NavbarRoadmap() {
+export default function NavbarDocs() {
   return (
     <div className="w-[100%] h-max-minus-96 grid grid-cols-2 relative bg-white rounded-[24px] col-start-2 col-span-3">
       <div className="flex flex-col gap-4 p-[24px] ">
@@ -33,7 +33,7 @@ export default function NavbarRoadmap() {
         <div className="font-poppins text-4xl">
           Meowcoin's documentation is packed with insights into our
           blockchain. Access whitepapers and technical guides to gain an
-          in-depth understanding of Meowcoin's architecture, features, and
+          in-depth understanding of Meowcoin&rsquo;s architecture, features, and
           future plans. Whether you're a developer or enthusiast, our
           documentation gives you the tools you need to build with Meowcoin.
         </div>

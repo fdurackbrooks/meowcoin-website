@@ -35,7 +35,7 @@ export default function NavbarCommunity() {
         <div className="font-poppins text-4xl">
           Our incredible community is the heart of Meowcoin. Connect with fellow
           supporters, share your ideas, and stay updated on the latest
-          developments. At Meowcoin, we're more than just a cryptocurrency;
+          developments. At Meowcoin, we&rsquo;re more than just a cryptocurrency;
           we're a community united by a common goal – to support animals through
           blockchain technology.
         </div>
