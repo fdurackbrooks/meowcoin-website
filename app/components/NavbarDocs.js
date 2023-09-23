@@ -31,10 +31,10 @@ export default function NavbarDocs() {
         </Link>
         <div className="border-b-2 border-black" />
         <div className="font-poppins text-4xl">
-          Meowcoin's documentation is packed with insights into our
+          Meowcoin&apos;s documentation is packed with insights into our
           blockchain. Access whitepapers and technical guides to gain an
-          in-depth understanding of Meowcoin&rsquo;s architecture, features, and
-          future plans. Whether you're a developer or enthusiast, our
+          in-depth understanding of Meowcoin&apos;s architecture, features, and
+          future plans. Whether you&apos;re a developer or enthusiast, our
           documentation gives you the tools you need to build with Meowcoin.
         </div>
       </div>

@@ -31,7 +31,7 @@ export default function NavbarExplorer() {
         </Link>
         <div className="border-b-2 border-black" />
         <div className="font-poppins text-4xl">
-          The Meowcoin explorer is your portal to our blockchain&rsquo;s inner
+          The Meowcoin explorer is your portal to our blockchain&apos;s inner
           workings. You can trace transactions, monitor block heights, and
           explore the world of NFTs and assets within the Meowcoin ecosystem.
           Gain deep insights into our decentralized ledger technology as you
