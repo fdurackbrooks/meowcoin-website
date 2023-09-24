@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <div>
       <Navbar />
-      <div>Our Partners</div>
+      <div>Meowcoin Partners</div>
     </div>
   );
 }
