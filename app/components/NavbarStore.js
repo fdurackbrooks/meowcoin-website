@@ -3,12 +3,12 @@
 import Link from "next/link";
 import React, { useState } from "react";
 
-export default function NavbarDocs() {
+export default function NavbarStore() {
   return (
     <div className="w-[100%] h-max-minus-96 grid grid-cols-2 relative bg-white rounded-[24px] col-start-2 col-span-3">
       <div className="flex flex-col gap-4 p-[24px] ">
-        <Link href="https://docs.mewccrypto.com/">
-          <div className="font-grandstander text-8xl">Docs</div>
+        <Link href="https://store.mewccrypto.com/">
+          <div className="font-grandstander text-8xl">Store</div>
           <div className="relative flex gap-2 left-2">
             <div>
               <svg
@@ -26,16 +26,16 @@ export default function NavbarDocs() {
                 />
               </svg>
             </div>
-            <div className="font-poppins text-2xl">docs.mewccrypto.com</div>
+            <div className="font-poppins text-2xl">store.mewccrypto.com</div>
           </div>
         </Link>
         <div className="border-b-2 border-black" />
         <div className="font-poppins text-4xl">
-          Meowcoin&apos;s documentation is packed with insights into our
-          blockchain. Access whitepapers and technical guides to gain an
-          in-depth understanding of our architecture, features, and
-          future plans. Whether you&apos;re a developer or enthusiast, our
-          documentation gives you the tools you need to build with Meowcoin.
+          The Meowcoin explorer is your portal to our blockchain&apos;s inner
+          workings. You can trace transactions, monitor block heights, and
+          explore the world of NFTs and assets within the Meowcoin ecosystem.
+          Gain deep insights into our decentralized ledger technology as you
+          navigate the blockchain.
         </div>
       </div>
       <div className="w-[100%] h-[100%] about-us-image rounded-r-[24px]" />

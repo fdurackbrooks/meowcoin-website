@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
 
 export default function Partners() {
   return (
@@ -24,11 +25,16 @@ export default function Partners() {
             </div>
             <div className="h-6" />
             <div className="flex gap-6">
+              <Link
+                href="https://forgottenanimals.org"
+                className="font-poppins transition-colors h-[72px] bg-white text-black rounded-[24px] w-[200px] text-3xl xl:block hidden hover:bg-[#000000] hover:text-white flex-grow flex justify-center items-center"
+              >
+                <div>Learn More</div>
+              </Link>
               <button className="font-poppins transition-colors h-[72px] bg-white text-black rounded-[24px] w-[200px] text-3xl xl:block hidden hover:bg-[#000000] hover:text-white flex-grow">
-                Learn More
-              </button>
-              <button className="font-poppins transition-colors h-[72px] bg-white text-black rounded-[24px] w-[200px] text-3xl xl:block hidden hover:bg-[#000000] hover:text-white flex-grow">
-                Social Link
+                <Link href="https://twitter.com/forgottenanimal">
+                  Social Link
+                </Link>
               </button>
             </div>
           </div>
@@ -52,45 +58,18 @@ export default function Partners() {
         <div className="w-[75%] h-[480px] grid grid-cols-2">
           <div className="p-6 rounded-l-[48px] bg-white flex items-center justify-center">
             <svg
-              id="Layer_2"
-              data-name="Layer 2"
               xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 215.98 206.62"
+              viewBox="0 0 337.572 335.218"
               className="h-[432px]"
             >
-              <g id="Layer_1-2" data-name="Layer 1">
-                <g>
-                  <path d="m99.76,132.81c2.31,2.16,2,1.23,1.82,4.69-.62,5.26-1.59,10.48-2.33,15.73-1.22,4.84,6.01,1.96,8.75,2.65,1.98-.58,7.96,1.25,8.87-.93-.45-5.86-1.85-11.63-2.45-17.48-.18-3.46-.5-2.53,1.81-4.69,4.78-4.47,5.03-11.56.62-16.5-10.83-11.85-28.88,5.44-17.09,16.53Z" />
-                  <path d="m214.51,92.3c-8.12-36.51-16.06-27.67-6.88-69.46,1.64-23.51-28.68-28.28-43.72-15.39-10.22,7.78-24.03,7.54-34.12,15.35-17.88,12.76-13.98,37.46-5,54.55,5.87,14.52,19.37,24.79,23.56,39.96,5.43,19.78-6,42-25.27,49.07-30.46,12.7-64.45-17.15-55.43-49.03,4.18-15.17,17.69-25.44,23.56-39.96,13.28-23.86,10.27-54.78-20.16-61.58C54.86,12.93,42.28-4.31,24.8,1.01.34,8.73,10.31,28.54,12.34,47.02c1.72,10.82-3.39,20.09-7.05,29.88C2.02,86.9.17,97.41,0,107.92c.83,140.75,236.66,126.89,214.51-15.63Z" />
-                </g>
-              </g>
+              <path
+                id="Flux_symbol_blue-substract"
+                d="M168.786,335.218a172.681,172.681,0,0,1-17.257-.865c-5.611-.566-11.25-1.42-16.759-2.54-5.438-1.1-10.88-2.495-16.176-4.13-5.236-1.617-10.453-3.514-15.507-5.636A169.13,169.13,0,0,1,28.826,261.32,167.261,167.261,0,0,1,13.264,232.85c-2.138-5.018-4.047-10.2-5.676-15.4-1.647-5.258-3.046-10.663-4.159-16.063A166.973,166.973,0,0,1,.871,184.746a168.944,168.944,0,0,1,0-34.274A166.972,166.972,0,0,1,3.429,133.83c1.113-5.4,2.512-10.8,4.159-16.063,1.629-5.2,3.538-10.381,5.676-15.4A167.258,167.258,0,0,1,28.826,73.9a169.128,169.128,0,0,1,74.261-60.726c5.054-2.123,10.271-4.019,15.507-5.636,5.3-1.636,10.738-3.025,16.176-4.13,5.509-1.119,11.147-1.974,16.759-2.54a172.518,172.518,0,0,1,34.515,0c5.612.566,11.25,1.42,16.759,2.54,5.438,1.105,10.88,2.495,16.176,4.13,5.236,1.617,10.454,3.514,15.507,5.636A169.129,169.129,0,0,1,308.746,73.9a167.254,167.254,0,0,1,15.562,28.471c2.138,5.018,4.047,10.2,5.676,15.4,1.647,5.259,3.046,10.663,4.159,16.063a166.952,166.952,0,0,1,2.558,16.642,168.945,168.945,0,0,1,0,34.274,166.955,166.955,0,0,1-2.558,16.642c-1.113,5.4-2.512,10.8-4.159,16.063-1.629,5.2-3.538,10.381-5.676,15.4a167.255,167.255,0,0,1-15.562,28.471,169.127,169.127,0,0,1-74.261,60.726c-5.054,2.123-10.271,4.019-15.507,5.636-5.3,1.636-10.738,3.025-16.176,4.13-5.509,1.119-11.148,1.974-16.759,2.54A172.681,172.681,0,0,1,168.786,335.218Zm-21.3-94.12h0l-.468.275L128.264,252.2l41.3,23.834,19.225-11.1-40.586-23.42-.717-.413Zm63.424-108.159h0l-51.68,29.84v59.652l51.611,29.785.069.041,51.68-29.826V162.779l-51.68-29.84ZM106.269,170.824,76.543,187.975v34.3l29.727,17.166L136,222.279v-34.3Zm0-25.459h0l11.025,6.365,19.887,11.476V150.049l11.025-6.365,51.68-29.826,11.025-6.365,11.025,6.365,40.655,23.461V114.974L169.568,61.286,76.543,114.974v47.543l18.7-10.787,11.025-6.365Z"
+                fill="#2b61d1"
+              />
             </svg>
           </div>
-          <div className="p-[24px] flex flex-col justify-between bg-[#0054a6] rounded-r-[48px]">
-            <div className="text-white">
-              <div className="font-grandstander text-center text-6xl">
-                Heavenly Pets
-              </div>
-              <div className="h-6" />
-              <div className="font-poppins text-2xl">
-                Heavenly Pets is a US based charitable organisation focused on
-                helping homeless cats through rescue, sanctuary, and new
-                beginnings.
-              </div>
-            </div>
-            <div className="h-6" />
-            <div className="flex gap-6">
-              <button className="font-poppins transition-colors h-[72px] bg-white text-black rounded-[24px] w-[200px] text-3xl xl:block hidden hover:bg-[#000000] hover:text-white flex-grow">
-                Learn More
-              </button>
-              <button className="font-poppins transition-colors h-[72px] bg-white text-black rounded-[24px] w-[200px] text-3xl xl:block hidden hover:bg-[#000000] hover:text-white flex-grow">
-                Social Link
-              </button>
-            </div>
-          </div>
-        </div>
-        <div className="w-[75%] h-[480px] grid grid-cols-2">
-          <div className="p-[24px] flex flex-col justify-between bg-[#2b61d1] rounded-l-[48px]">
+          <div className="p-[24px] flex flex-col justify-between bg-[#2b61d1] rounded-r-[48px]">
             <div className="text-white">
               <div className="font-grandstander text-center text-6xl">
                 Flux Labs
@@ -105,29 +84,40 @@ export default function Partners() {
             <div className="h-6" />
             <div className="flex gap-6">
               <button className="font-poppins transition-colors h-[72px] bg-white text-black rounded-[24px] w-[200px] text-3xl xl:block hidden hover:bg-[#000000] hover:text-white flex-grow">
-                Learn More
+                <Link href="https://runonflux.io">Learn More</Link>
               </button>
               <button className="font-poppins transition-colors h-[72px] bg-white text-black rounded-[24px] w-[200px] text-3xl xl:block hidden hover:bg-[#000000] hover:text-white flex-grow">
-                Social Link
+                <Link href="https://twitter.com/RunOnFlux">Social Link</Link>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div className="w-[75%] h-[480px] grid grid-cols-2">
+          <div className="p-[24px] flex flex-col justify-between bg-[#a5c715] rounded-l-[48px]">
+            <div className="text-black">
+              <div className="font-grandstander text-center text-6xl">
+                Edinburgh D&C Home
+              </div>
+              <div className="h-6" />
+              <div className="font-poppins text-2xl">
+                Heavenly Pets is a US based charitable organisation focused on
+                helping homeless cats through rescue, sanctuary, and new
+                beginnings.
+              </div>
+            </div>
+            <div className="h-6" />
+            <div className="flex gap-6">
+              <button className="font-poppins transition-colors h-[72px] bg-white text-black rounded-[24px] w-[200px] text-3xl xl:block hidden hover:bg-[#000000] hover:text-white flex-grow">
+                <Link href="https://edch.org.uk">Learn More</Link>
+              </button>
+              <button className="font-poppins transition-colors h-[72px] bg-white text-black rounded-[24px] w-[200px] text-3xl xl:block hidden hover:bg-[#000000] hover:text-white flex-grow">
+                <Link href="https://twitter.com/EdinDogCatHome">
+                  Social Link
+                </Link>
               </button>
             </div>
           </div>
           <div className="p-6 rounded-r-[48px] bg-white flex items-center justify-center">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 337.572 335.218"
-              className="h-[432px]"
-            >
-              <path
-                id="Flux_symbol_blue-substract"
-                d="M168.786,335.218a172.681,172.681,0,0,1-17.257-.865c-5.611-.566-11.25-1.42-16.759-2.54-5.438-1.1-10.88-2.495-16.176-4.13-5.236-1.617-10.453-3.514-15.507-5.636A169.13,169.13,0,0,1,28.826,261.32,167.261,167.261,0,0,1,13.264,232.85c-2.138-5.018-4.047-10.2-5.676-15.4-1.647-5.258-3.046-10.663-4.159-16.063A166.973,166.973,0,0,1,.871,184.746a168.944,168.944,0,0,1,0-34.274A166.972,166.972,0,0,1,3.429,133.83c1.113-5.4,2.512-10.8,4.159-16.063,1.629-5.2,3.538-10.381,5.676-15.4A167.258,167.258,0,0,1,28.826,73.9a169.128,169.128,0,0,1,74.261-60.726c5.054-2.123,10.271-4.019,15.507-5.636,5.3-1.636,10.738-3.025,16.176-4.13,5.509-1.119,11.147-1.974,16.759-2.54a172.518,172.518,0,0,1,34.515,0c5.612.566,11.25,1.42,16.759,2.54,5.438,1.105,10.88,2.495,16.176,4.13,5.236,1.617,10.454,3.514,15.507,5.636A169.129,169.129,0,0,1,308.746,73.9a167.254,167.254,0,0,1,15.562,28.471c2.138,5.018,4.047,10.2,5.676,15.4,1.647,5.259,3.046,10.663,4.159,16.063a166.952,166.952,0,0,1,2.558,16.642,168.945,168.945,0,0,1,0,34.274,166.955,166.955,0,0,1-2.558,16.642c-1.113,5.4-2.512,10.8-4.159,16.063-1.629,5.2-3.538,10.381-5.676,15.4a167.255,167.255,0,0,1-15.562,28.471,169.127,169.127,0,0,1-74.261,60.726c-5.054,2.123-10.271,4.019-15.507,5.636-5.3,1.636-10.738,3.025-16.176,4.13-5.509,1.119-11.148,1.974-16.759,2.54A172.681,172.681,0,0,1,168.786,335.218Zm-21.3-94.12h0l-.468.275L128.264,252.2l41.3,23.834,19.225-11.1-40.586-23.42-.717-.413Zm63.424-108.159h0l-51.68,29.84v59.652l51.611,29.785.069.041,51.68-29.826V162.779l-51.68-29.84ZM106.269,170.824,76.543,187.975v34.3l29.727,17.166L136,222.279v-34.3Zm0-25.459h0l11.025,6.365,19.887,11.476V150.049l11.025-6.365,51.68-29.826,11.025-6.365,11.025,6.365,40.655,23.461V114.974L169.568,61.286,76.543,114.974v47.543l18.7-10.787,11.025-6.365Z"
-                fill="#2b61d1"
-              />
-            </svg>
-          </div>
-        </div>
-        <div className="w-[75%] h-[480px] grid grid-cols-2">
-          <div className="p-6 rounded-l-[48px] bg-white flex items-center justify-center">
             <svg
               id="Layer_1"
               data-name="Layer 1"
@@ -158,30 +148,9 @@ export default function Partners() {
               <path d="m142.06,693.95c-9.2,0-18.4-.11-27.6.06-3.07.06-5.68-.73-8.25-2.26-.65-.39-1.92-.42-2.55-.04-3.44,2.1-7.37,1.64-11.07,2.21-1.6.25-3.71-3.38-3.74-6.18-.07-6.51.17-13.04-.17-19.54-.13-2.53.84-4.54,1.68-6.61,1.21-2.97,4.11-3.26,7.6-1.19,1.98,1.17,3.97,2.36,6.06,3.32.62.28,1.76.03,2.38-.39,2.04-1.38,4.18-1.93,6.65-1.87,11.15.29,22.3.56,33.44.61,4.69.02,9.41-.34,14.08-.84,5.74-.61,7.35,3.49,7.4,7.48.09,6.73-.43,13.48-.78,20.21-.15,2.88-2.18,4.74-5.1,4.76-6.68.04-13.36.01-20.04.01,0,.08,0,.16,0,.24Z" />
             </svg>
           </div>
-          <div className="p-[24px] flex flex-col justify-between bg-[#a5c715] rounded-r-[48px]">
-            <div className="text-black">
-              <div className="font-grandstander text-center text-6xl">
-                Edinburgh D&C Home
-              </div>
-              <div className="h-6" />
-              <div className="font-poppins text-2xl">
-                Heavenly Pets is a US based charitable organisation focused on
-                helping homeless cats through rescue, sanctuary, and new
-                beginnings.
-              </div>
-            </div>
-            <div className="h-6" />
-            <div className="flex gap-6">
-              <button className="font-poppins transition-colors h-[72px] bg-white text-black rounded-[24px] w-[200px] text-3xl xl:block hidden hover:bg-[#000000] hover:text-white flex-grow">
-                Learn More
-              </button>
-              <button className="font-poppins transition-colors h-[72px] bg-white text-black rounded-[24px] w-[200px] text-3xl xl:block hidden hover:bg-[#000000] hover:text-white flex-grow">
-                Social Link
-              </button>
-            </div>
-          </div>
         </div>
       </div>
+      <Footer />
     </div>
   );
 }

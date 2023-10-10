@@ -35,7 +35,7 @@ export default function NavbarAboutUs() {
           KawPoW algorithm. We aim to integrate blockchain technology in the
           animal sector, provide small scale miners with a profitable blockchain
           to devote their hash to, and help all animals, big and small, through
-          philanthropic means.
+          philanthropy.
         </div>
       </div>
       <div className="w-[100%] h-[100%] about-us-image rounded-r-[24px]" />
