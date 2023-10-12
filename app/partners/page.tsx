@@ -10,7 +10,7 @@ export default function Partners() {
         <div>Hello</div>
       </div>
       <div className="relative flex flex-col gap-12 justify-center items-center">
-        <div className="w-[75%] h-[480px] grid grid-cols-2">
+        <div className="w-[75%] h-[480px] grid grid-cols-2 shadow-lg rounded-[48px]">
           <div className="p-[24px] flex flex-col justify-between bg-[#ffad0c] rounded-l-[48px]">
             <div className="text-black">
               <div className="font-grandstander text-center text-6xl">
@@ -55,7 +55,7 @@ export default function Partners() {
             </svg>
           </div>
         </div>
-        <div className="w-[75%] h-[480px] grid grid-cols-2">
+        <div className="w-[75%] h-[480px] grid grid-cols-2 shadow-lg rounded-[48px]">
           <div className="p-6 rounded-l-[48px] bg-white flex items-center justify-center">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -92,7 +92,7 @@ export default function Partners() {
             </div>
           </div>
         </div>
-        <div className="w-[75%] h-[480px] grid grid-cols-2">
+        <div className="w-[75%] h-[480px] grid grid-cols-2 shadow-lg rounded-[48px]">
           <div className="p-[24px] flex flex-col justify-between bg-[#a5c715] rounded-l-[48px]">
             <div className="text-black">
               <div className="font-grandstander text-center text-6xl">

@@ -5,7 +5,7 @@ import React, { useState } from "react";
 
 export default function NavbarAboutUs() {
   return (
-    <div className="w-[100%] h-max-minus-96 grid grid-cols-2 relative bg-white rounded-[24px] col-start-2 col-span-3">
+    <div className="w-[100%] h-max-minus-96 hidden grid-cols-2 relative bg-white rounded-[24px] col-start-2 col-span-3 2xl:grid shadow-lg">
       <div className="flex flex-col gap-4 p-[24px] ">
         <Link href="/about-us">
           <div className="font-grandstander text-8xl">About Us</div>

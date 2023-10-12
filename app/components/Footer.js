@@ -7,7 +7,7 @@ export default function Navbar() {
   return (
     <div>
       <div className="h-[120px]" />
-      <div className="relative h-[360px] w-[85%] bg-[#d7c47f] translate-x-[-50%] left-[50%] rounded-t-[48px] p-[24px] transition-all z-15">
+      <div className="relative h-[360px] w-[85%] bg-[#d7c47f] translate-x-[-50%] left-[50%] rounded-t-[48px] p-[24px] transition-all z-15 shadow-lg">
         <div></div>
         <div className="font-grandstander flex flex-col relative h-[100%] w-min justify-between left-4 text-[100%] items">
           <Link href="/about-us">About Us</Link>

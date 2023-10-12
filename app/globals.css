@@ -62,7 +62,49 @@ body::-webkit-scrollbar-thumb {
 }
 
 .about-us-image {
+  background-image: url(../public/cat1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.roadmap-image {
+  background-image: url(../public/cat2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.partners-image {
   background-image: url(../public/cat3.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.community-image {
+  background-image: url(../public/cat4.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.resources-image {
+  background-image: url(../public/cat5.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.docs-image {
+  background-image: url(../public/cat6.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.explorer-image {
+  background-image: url(../public/cat7.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.store-image {
+  background-image: url(../public/cat8.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
