@@ -24,12 +24,18 @@ export default function Home() {
         </div>
         <div className="h-8" />
         <div className="grid grid-cols-2 grid-rows-2 gap-8 w-[100%] md:w-[432px] text-black text-[6vw] md:text-3xl">
-          <Link className="md:w-[200px] w-[100%]" href="https://discord.gg/meowcoin/">
+          <Link
+            className="md:w-[200px] w-[100%]"
+            href="https://discord.gg/meowcoin/"
+          >
             <button className="font-poppins transition-all h-[72px] bg-[#d7c47f] rounded-[24px] w-[100%] hover:bg-[#BC8312] hover:text-white hover:shadow-lg">
               Discord
             </button>
           </Link>
-          <Link className="md:w-[200px] w-[100%]" href="https://discord.gg/meowcoin/">
+          <Link
+            className="md:w-[200px] w-[100%]"
+            href="https://discord.gg/meowcoin/"
+          >
             <button className="font-poppins transition-all h-[72px] bg-[#d7c47f] rounded-[24px] w-[100%] hover:bg-[#BC8312] hover:text-white hover:shadow-lg">
               Mining
             </button>
@@ -59,7 +65,7 @@ export default function Home() {
       >
         <path d="m336.31,0c4.91,21.19,8.15,43.05,9.37,65.56,12.59,231.79-197.35,339.95-296.52,630.11-101.57,297.18-23.82,600.52,37.07,741.31,259.36,599.73,1323.82,819.45,2112.73,555.98,25.17-8.41,49.84-17.3,74.13-26.55V0H336.31Z" />
       </svg>
-      <div className="mewc-logo-hero absolute top-[200px] right-[120px] 2xl:block hidden">
+      <div className="mewc-logo-hero absolute top-[200px] right-[120px] 3xl:block hidden">
         <Image
           src="/MeowcoinLogoNoBackground.png"
           alt="mewc-logo"
@@ -90,12 +96,15 @@ export default function Home() {
           <br />
           Pet adoption is an opportunity to integrate blockchain technology into
           the animal sector that can benefit both animal shelters and adopters
-          alike. Animals&apos; information such as owner contacts, medical history
-          and microchip number can be saved onto the blockchain for all to see,
-          including all future owners.
+          alike. Animals&apos; information such as owner contacts, medical
+          history and microchip number can be saved onto the blockchain for all
+          to see, including all future owners.
         </div>
       </div>
-      <Footer />
+      <div className="hidden md:block relative">
+        <div className="h-[120px]" />
+        <Footer />
+      </div>
     </div>
   );
 }

@@ -19,6 +19,9 @@ const config: Config = {
       height: {
         "max-minus-96": "calc(100% - 96px)",
       },
+      screens: {
+        "3xl": "1800px",
+      }
     },
   },
   plugins: [],
