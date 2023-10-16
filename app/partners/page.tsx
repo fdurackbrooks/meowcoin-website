@@ -201,7 +201,10 @@ export default function Partners() {
           </div>
         </div>
       </div>
-      <Footer />
+      <div className="hidden md:block relative">
+        <div className="h-[120px]" />
+        <Footer />
+      </div>
     </div>
   );
 }

@@ -7,7 +7,7 @@ export default function NavbarStore() {
   return (
     <div className="w-[100%] h-max-minus-96 hidden grid-cols-2 relative bg-white rounded-[24px] col-start-2 col-span-3 2xl:grid shadow-lg">
       <div className="flex flex-col gap-4 p-[24px] ">
-        <Link href="https://store.mewccrypto.com/">
+        <Link href="/">
           <div className="font-grandstander text-8xl">Store</div>
           <div className="relative flex gap-2 left-2">
             <div>
@@ -26,7 +26,7 @@ export default function NavbarStore() {
                 />
               </svg>
             </div>
-            <div className="font-poppins text-2xl">store.mewccrypto.com</div>
+            <div className="font-poppins text-2xl">Coming Soon!</div>
           </div>
         </Link>
         <div className="border-b-2 border-black" />
