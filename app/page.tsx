@@ -14,7 +14,7 @@ export default function Home() {
   return (
     <div>
       <Navbar />
-      <div className="relative top-[180px] left-[60px] md:w-[35vw] z-10">
+      <div className="relative top-[180px] left-[60px] md:w-[35vw] z-10 h-[100vh]">
         <div className="font-grandstander text-[20vw] md:text-[180px] leading-none font-medium text-center md:text-left">
           Meowcoin
         </div>
@@ -67,26 +67,14 @@ export default function Home() {
           height="0"
         />
       </div>
-      <div className="top-[400px] relative hidden flex-row justify-around z-30 items-center h-[512px] 2xl:flex">
+      <div className="relative hidden flex-row justify-around z-30 items-center h-[512px] 2xl:flex">
         <MewcSupply />
         <MewcDonated />
         <MewcHeight />
         <MewcPrice />
         <MewcBurned />
       </div>
-      <div>
-        <svg
-          id="Layer_1"
-          data-name="Layer 1"
-          xmlns="http://www.w3.org/2000/svg"
-          viewBox="0 0 1092.06 1624.66"
-          fill="#eccba0"
-          className="top-[950px] absolute lg:block hidden"
-        >
-          <path d="m1092.06,1624.66V0c-66.48,25.26-133.97,74.31-257.91,103.49-140.79,33.14-260.87,18.6-389.11,3.06C234.38,81.04,151.54,26.27,42.15,75.91c-15.31,6.95-29.31,15.13-42.15,24.11v1524.63h1092.06Z" />
-        </svg>
-      </div>
-      <div className="relative top-[480px] right-[120px] z-20 w-[45%] lg:block hidden">
+      <div className="relative top-12 right-[120px] z-20 w-[45%] lg:block hidden">
         <Image src="/HomePageCat1.png" alt="mewc-logo" width="800" height="0" />
       </div>
       <div className="z-30 text-black absolute text-right w-[50%] right-[120px] top-[1200px] 2xl:top-[1600px]">
@@ -107,16 +95,7 @@ export default function Home() {
           including all future owners.
         </div>
       </div>
-      <svg
-        id="Layer_1"
-        data-name="Layer 1"
-        xmlns="http://www.w3.org/2000/svg"
-        viewBox="0 0 1092.06 1624.66"
-        fill="#deb887"
-        className="top-[2200px] absolute lg:block hidden"
-      >
-        <path d="m1092.06,1624.66V0c-66.48,25.26-133.97,74.31-257.91,103.49-140.79,33.14-260.87,18.6-389.11,3.06C234.38,81.04,151.54,26.27,42.15,75.91c-15.31,6.95-29.31,15.13-42.15,24.11v1524.63h1092.06Z" />
-      </svg>
+      <Footer />
     </div>
   );
 }

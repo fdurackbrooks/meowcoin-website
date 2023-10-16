@@ -1,6 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
 
 export default function Home() {
   return (
@@ -8,7 +9,7 @@ export default function Home() {
       <Navbar />
       <div className="relative top-[180px] left-[60px] md:w-[35vw] z-10 h-[100vh]">
         <div className="font-grandstander text-[20vw] md:text-[180px] leading-none font-medium text-center md:text-left">
-          Donations
+          Partners
         </div>
         <div className="block md:hidden h-4" />
         <div className="font-poppins text-[10vw] md:text-5xl font-medium md:leading-tight text-center md:text-left">
@@ -59,6 +60,7 @@ export default function Home() {
           height="0"
         />
       </div>
+      <Footer />
     </div>
   );
 }
