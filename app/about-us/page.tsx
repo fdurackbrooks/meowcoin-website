@@ -13,7 +13,7 @@ export default function Home() {
         </div>
         <div className="block md:hidden h-4" />
         <div className="font-poppins text-[10vw] md:text-5xl font-medium md:leading-tight text-center md:text-left">
-          Discover Meowcoin's journey to support animals
+          Discover Meowcoin&apos;s journey to support animals
         </div>
         <div className="h-8" />
         <div className="grid grid-cols-2 grid-rows-2 gap-8 w-[100%] md:w-[432px] text-black text-[6vw] md:text-3xl">
