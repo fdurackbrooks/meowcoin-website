@@ -5,9 +5,8 @@
 html,
 body,
 :root {
-  background-color: #deb887;
+  background-color: #ffe4c4;
   background-image: url(../public/background.svg);
-  background-repeat: no-repeat;
   background-size: cover;
 }
 

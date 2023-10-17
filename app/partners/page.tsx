@@ -13,22 +13,28 @@ export default function Partners() {
         </div>
         <div className="block md:hidden h-4" />
         <div className="font-poppins text-[10vw] md:text-5xl font-medium md:leading-tight text-center md:text-left">
-          A crypto project dedicated to helping our furry friends
+          Discover our partners helping us in our mission
         </div>
         <div className="h-8" />
         <div className="grid grid-cols-2 grid-rows-2 gap-8 w-[100%] md:w-[432px] text-black text-[6vw] md:text-3xl">
-          <Link className="md:w-[200px] w-[100%]" href="https://discord.gg/meowcoin/">
-            <button className="font-poppins transition-all h-[72px] bg-[#d7c47f] rounded-[24px] w-[100%] hover:bg-[#BC8312] hover:text-white hover:shadow-lg">
+          <Link
+            className="md:w-[200px] w-[100%]"
+            href="https://discord.gg/meowcoin/"
+          >
+            <button className="font-poppins transition-all h-[72px] bg-[#d7c47f] rounded-[24px] w-[100%] hover:bg-[#BC8312] hover:text-white hover:shadow-2xl">
               Discord
             </button>
           </Link>
-          <Link className="md:w-[200px] w-[100%]" href="https://discord.gg/meowcoin/">
-            <button className="font-poppins transition-all h-[72px] bg-[#d7c47f] rounded-[24px] w-[100%] hover:bg-[#BC8312] hover:text-white hover:shadow-lg">
+          <Link
+            className="md:w-[200px] w-[100%]"
+            href="https://discord.gg/meowcoin/"
+          >
+            <button className="font-poppins transition-all h-[72px] bg-[#d7c47f] rounded-[24px] w-[100%] hover:bg-[#BC8312] hover:text-white hover:shadow-2xl">
               Mining
             </button>
           </Link>
           <Link className="md:w-[200px] w-[100%]" href="/donations">
-            <button className="font-poppins transition-all h-[72px] bg-[#d7c47f] rounded-[24px] w-[100%] hover:bg-[#BC8312] hover:text-white hover:shadow-lg">
+            <button className="font-poppins transition-all h-[72px] bg-[#d7c47f] rounded-[24px] w-[100%] hover:bg-[#BC8312] hover:text-white hover:shadow-2xl">
               Donations
             </button>
           </Link>
@@ -36,7 +42,7 @@ export default function Partners() {
             className="md:w-[200px] w-[100%]"
             href="https://docs.mewccrypto.com/whitepaper"
           >
-            <button className="font-poppins transition-all h-[72px] bg-[#d7c47f] rounded-[24px] w-[100%] hover:bg-[#BC8312] hover:text-white hover:shadow-lg">
+            <button className="font-poppins transition-all h-[72px] bg-[#d7c47f] rounded-[24px] w-[100%] hover:bg-[#BC8312] hover:text-white hover:shadow-2xl">
               Whitepaper
             </button>
           </Link>
@@ -61,7 +67,7 @@ export default function Partners() {
         />
       </div>
       <div className="relative flex flex-col gap-12 justify-center items-center">
-        <div className="w-[75%] h-[480px] grid grid-cols-2 shadow-lg rounded-[48px]">
+        <div className="w-[75%] h-[480px] grid grid-cols-2 shadow-2xl rounded-[48px]">
           <div className="p-[24px] flex flex-col justify-between bg-[#ffad0c] rounded-l-[48px]">
             <div className="text-black">
               <div className="font-grandstander text-center text-6xl">
@@ -69,20 +75,19 @@ export default function Partners() {
               </div>
               <div className="h-6" />
               <div className="font-poppins text-2xl">
-                Heavenly Pets is a US based charitable organisation focused on
-                helping homeless cats through rescue, sanctuary, and new
-                beginnings.
+                Forgotten Animals is a charity that focuses on helping animals
+                in regions where animal welfare awareness and resources are most
+                deficient, to carry out projects that save as many animals as
+                possible from despair and tackle the roots of problems where the
+                largest impact can be made.
               </div>
             </div>
             <div className="h-6" />
             <div className="flex gap-6">
-              <Link
-                href="https://forgottenanimals.org"
-                className="font-poppins transition-colors h-[72px] bg-white text-black rounded-[24px] w-[200px] text-3xl xl:block hidden hover:bg-[#000000] hover:text-white flex-grow flex justify-center items-center"
-              >
-                <div>Learn More</div>
-              </Link>
-              <button className="font-poppins transition-colors h-[72px] bg-white text-black rounded-[24px] w-[200px] text-3xl xl:block hidden hover:bg-[#000000] hover:text-white flex-grow">
+              <button className="font-poppins transition-colors h-[72px] bg-white text-black rounded-[24px] w-[200px] text-3xl xl:block hidden hover:bg-[#000000] hover:text-white flex-grow hover:shadow-2xl">
+                <Link href="https://forgottenanimals.org">Learn More</Link>
+              </button>
+              <button className="font-poppins transition-colors h-[72px] bg-white text-black rounded-[24px] w-[200px] text-3xl xl:block hidden hover:bg-[#000000] hover:text-white flex-grow hover:shadow-2xl">
                 <Link href="https://twitter.com/forgottenanimal">
                   Social Link
                 </Link>
@@ -106,7 +111,7 @@ export default function Partners() {
             </svg>
           </div>
         </div>
-        <div className="w-[75%] h-[480px] grid grid-cols-2 shadow-lg rounded-[48px]">
+        <div className="w-[75%] h-[480px] grid grid-cols-2 shadow-2xl rounded-[48px]">
           <div className="p-6 rounded-l-[48px] bg-white flex items-center justify-center">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -127,23 +132,23 @@ export default function Partners() {
               </div>
               <div className="h-6" />
               <div className="font-poppins text-2xl">
-                Heavenly Pets is a US based charitable organisation focused on
-                helping homeless cats through rescue, sanctuary, and new
-                beginnings.
+                Flux is a people powered, decentralized cloud infrastructure
+                comprised of user-operated, scalable and globally distributed
+                computational nodes.
               </div>
             </div>
             <div className="h-6" />
             <div className="flex gap-6">
-              <button className="font-poppins transition-colors h-[72px] bg-white text-black rounded-[24px] w-[200px] text-3xl xl:block hidden hover:bg-[#000000] hover:text-white flex-grow">
+              <button className="font-poppins transition-colors h-[72px] bg-white text-black rounded-[24px] w-[200px] text-3xl xl:block hidden hover:bg-[#000000] hover:text-white flex-grow hover:shadow-2xl">
                 <Link href="https://runonflux.io">Learn More</Link>
               </button>
-              <button className="font-poppins transition-colors h-[72px] bg-white text-black rounded-[24px] w-[200px] text-3xl xl:block hidden hover:bg-[#000000] hover:text-white flex-grow">
+              <button className="font-poppins transition-colors h-[72px] bg-white text-black rounded-[24px] w-[200px] text-3xl xl:block hidden hover:bg-[#000000] hover:text-white flex-grow hover:shadow-2xl">
                 <Link href="https://twitter.com/RunOnFlux">Social Link</Link>
               </button>
             </div>
           </div>
         </div>
-        <div className="w-[75%] h-[480px] grid grid-cols-2 shadow-lg rounded-[48px]">
+        <div className="w-[75%] h-[480px] grid grid-cols-2 shadow-2xl rounded-[48px]">
           <div className="p-[24px] flex flex-col justify-between bg-[#a5c715] rounded-l-[48px]">
             <div className="text-black">
               <div className="font-grandstander text-center text-6xl">
@@ -151,17 +156,18 @@ export default function Partners() {
               </div>
               <div className="h-6" />
               <div className="font-poppins text-2xl">
-                Heavenly Pets is a US based charitable organisation focused on
-                helping homeless cats through rescue, sanctuary, and new
-                beginnings.
+                Edinburgh Dog & Cat Home is a not for profit based in Scotland.
+                Since opening in 1884, the home has continued to help the pets
+                and people of Edinburgh. They strive to make sure that every pet
+                has the loving home it deserves.
               </div>
             </div>
             <div className="h-6" />
             <div className="flex gap-6">
-              <button className="font-poppins transition-colors h-[72px] bg-white text-black rounded-[24px] w-[200px] text-3xl xl:block hidden hover:bg-[#000000] hover:text-white flex-grow">
+              <button className="font-poppins transition-colors h-[72px] bg-white text-black rounded-[24px] w-[200px] text-3xl xl:block hidden hover:bg-[#000000] hover:text-white flex-grow hover:shadow-2xl">
                 <Link href="https://edch.org.uk">Learn More</Link>
               </button>
-              <button className="font-poppins transition-colors h-[72px] bg-white text-black rounded-[24px] w-[200px] text-3xl xl:block hidden hover:bg-[#000000] hover:text-white flex-grow">
+              <button className="font-poppins transition-colors h-[72px] bg-white text-black rounded-[24px] w-[200px] text-3xl xl:block hidden hover:bg-[#000000] hover:text-white flex-grow hover:shadow-2xl">
                 <Link href="https://twitter.com/EdinDogCatHome">
                   Social Link
                 </Link>
@@ -198,6 +204,64 @@ export default function Partners() {
               <path d="m150.71,346.61c-12.63,0-25.25.01-37.88-.01-1.87,0-3.75-.13-5.62-.27-2.86-.22-5.1-2.62-5.1-5.49,0-4.81.19-9.63-.01-14.43-.17-3.87,2.75-5.84,5.77-6.44.84-.17,1.59-.74,2.38-1.12-.49-.69-1.03-1.36-1.47-2.09-.84-1.41-1.67-2.83-2.42-4.29-.65-1.26-.94-2.78-1.82-3.83-1.81-2.16-2.94-4.43-2.76-7.3.09-1.46.22-2.96,0-4.4-.89-5.9,6.03-11.51,12.7-10.19,3.79.75,7.67,1.1,11.53,1.43,3.23.28,5.56,2.18,5.74,5.47.19,3.49-.15,7.02.08,10.51.31,4.77,3.21,10.08,8.91,9.95,5.21-.12,10.44-.12,15.65.06,2.82.1,5.63.73,8.45,1.08,1.57.19,2.36,1.12,2.42,2.58.2,4.88.31,9.76.47,14.64.08,2.52.09,5.05.3,7.56.34,4.09-1.69,6.46-5.83,6.5-3.83.04-7.67,0-11.5,0,0,.03,0,.06,0,.09Z" />
               <path d="m142.06,693.95c-9.2,0-18.4-.11-27.6.06-3.07.06-5.68-.73-8.25-2.26-.65-.39-1.92-.42-2.55-.04-3.44,2.1-7.37,1.64-11.07,2.21-1.6.25-3.71-3.38-3.74-6.18-.07-6.51.17-13.04-.17-19.54-.13-2.53.84-4.54,1.68-6.61,1.21-2.97,4.11-3.26,7.6-1.19,1.98,1.17,3.97,2.36,6.06,3.32.62.28,1.76.03,2.38-.39,2.04-1.38,4.18-1.93,6.65-1.87,11.15.29,22.3.56,33.44.61,4.69.02,9.41-.34,14.08-.84,5.74-.61,7.35,3.49,7.4,7.48.09,6.73-.43,13.48-.78,20.21-.15,2.88-2.18,4.74-5.1,4.76-6.68.04-13.36.01-20.04.01,0,.08,0,.16,0,.24Z" />
             </svg>
+          </div>
+        </div>
+        <div className="w-[75%] h-[480px] grid grid-cols-2 shadow-2xl rounded-[48px]">
+          <div className="p-6 rounded-l-[48px] bg-white flex items-center justify-center">
+            <svg
+              id="Layer_1"
+              data-name="Layer 1"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 783.6 862.96"
+              className="h-[432px]"
+            >
+              <polygon
+                points="656.08 278.86 656.08 584.61 391.2 737.95 391.2 403.66 656.08 278.86"
+                fill="#8a8bd1"
+              />
+              <polygon
+                points="126.32 278.86 126.32 584.61 391.2 737.95 391.2 403.66 126.32 278.86"
+                fill="#f1f1f9"
+              />
+              <path
+                d="m402.05,1.15c-6.91.01-13.82.02-20.74.03,6.91-1.56,13.82-1.58,20.74-.03Z"
+                fill="#cca5db"
+              />
+              <path
+                d="m379.21,862.69c2.55-1.41,5.08-1.31,7.6.09-2.53-.03-5.07-.06-7.6-.09Z"
+                fill="#5f78c9"
+              />
+              <path
+                d="m395.44,862.78c2.16-1.31,4.33-1.47,6.52-.07-2.17.02-4.35.04-6.52.07Z"
+                fill="#5f78c9"
+              />
+              <path
+                d="m783.31,307.14c-.02-12.56,1.19-25.18-1.25-37.68-1.29-6.6-1.65-13.41-3.39-19.87-2.64-9.77-6.19-19.32-10.93-28.28-12.44-23.52-30.13-42.15-53.2-55.5-64.73-37.48-129.5-74.88-194.26-112.31-17.93-10.36-35.94-20.6-53.77-31.13-9.76-5.77-19.89-10.7-30.57-14.38-10.97-3.77-22.42-5.41-33.9-6.83-6.91.01-13.82.02-20.74.03-2.27.4-4.52.98-6.81,1.17-9.61.8-18.92,2.96-28,6.12-10.55,3.67-20.37,8.86-30.02,14.46-30.7,17.82-61.5,35.47-92.25,53.21-51.7,29.81-103.41,59.62-155.09,89.47-19.74,11.4-35.92,26.62-47.91,46-4.6,7.43-8.11,15.54-12.02,23.39-4.27,8.55-5.76,17.99-7.66,27.17-1.5,7.28-1.48,14.96-1.49,22.46-.09,98.13-.09,196.26.01,294.39,0,6.95-.31,13.91,1.19,20.89,2.55,11.84,5.37,23.5,10.47,34.59,12.6,27.41,31.77,48.78,57.87,63.9,24,13.91,48.04,27.76,72.06,41.64,59.8,34.54,119.6,69.08,179.4,103.63,11.92,6.89,24.28,12.75,37.8,15.67,6.71,1.45,13.56,2.26,20.34,3.36,2.55-1.41,5.08-1.31,7.6.09,2.87,0,5.75,0,8.62,0,2.16-1.31,4.33-1.47,6.52-.07.71.07,1.49.36,2.14.19,6.67-1.75,13.56-2.15,20.29-3.95,13.63-3.65,26.42-8.89,38.58-15.93,25.41-14.71,50.84-29.39,76.26-44.08,29.93-17.29,59.86-34.57,89.78-51.86,28.39-16.4,56.93-32.54,85.11-49.3,35.15-20.9,58.03-50.81,65.96-91.55,1.95-10.02,3.32-19.98,3.31-30.16-.02-89.64.05-179.29-.08-268.93Zm-127.23,277.47l-264.88,153.34-264.88-153.34v-305.75L391.2,125.76l264.88,153.11v305.75Z"
+                fill="#4b4cb8"
+              />
+            </svg>
+          </div>
+          <div className="p-[24px] flex flex-col justify-between bg-[#4b4cb8] rounded-r-[48px]">
+            <div className="text-white">
+              <div className="font-grandstander text-center text-6xl">
+                JustNFTs
+              </div>
+              <div className="h-6" />
+              <div className="font-poppins text-2xl">
+                Flux is a people powered, decentralized cloud infrastructure
+                comprised of user-operated, scalable and globally distributed
+                computational nodes.
+              </div>
+            </div>
+            <div className="h-6" />
+            <div className="flex gap-6">
+              <button className="font-poppins transition-colors h-[72px] bg-white text-black rounded-[24px] w-[200px] text-3xl xl:block hidden hover:bg-[#000000] hover:text-white flex-grow hover:shadow-2xl">
+                <Link href="https://justnfts.io">Learn More</Link>
+              </button>
+              <button className="font-poppins transition-colors h-[72px] bg-white text-black rounded-[24px] w-[200px] text-3xl xl:block hidden hover:bg-[#000000] hover:text-white flex-grow hover:shadow-2xl">
+                <Link href="https://twitter.com/just_nfts">Social Link</Link>
+              </button>
+            </div>
           </div>
         </div>
       </div>

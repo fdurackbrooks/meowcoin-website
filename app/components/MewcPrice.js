@@ -18,7 +18,7 @@ export default function MewcPrice() {
   }, []);
 
   return (
-    <div className="w-[18%] h-[360px] bg-[#d7c47f] rounded-[48px] text-center p-[24px] flex flex-col justify-between hover:bg-[#bc8312] transition-all hover:h-[400px] hover:w-[25%] text-6xl hover:text-7xl hover:text-white shadow-md hover:shadow-lg">
+    <div className="w-[18%] h-[360px] bg-[#d7c47f] rounded-[48px] text-center p-[24px] flex flex-col justify-between hover:bg-[#bc8312] transition-all hover:h-[400px] hover:w-[25%] text-6xl hover:text-7xl hover:text-white shadow-2xl hover:shadow-2xl">
       <div className="font-grandstander">Price</div>
       <svg
         xmlns="http://www.w3.org/2000/svg"

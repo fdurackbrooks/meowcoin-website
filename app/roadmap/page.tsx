@@ -17,17 +17,17 @@ export default function Home() {
         <div className="h-8" />
         <div className="grid grid-cols-2 grid-rows-2 gap-8 w-[100%] md:w-[432px] text-black text-[6vw] md:text-3xl">
           <Link className="md:w-[200px] w-[100%]" href="https://discord.gg/meowcoin/">
-            <button className="font-poppins transition-all h-[72px] bg-[#d7c47f] rounded-[24px] w-[100%] hover:bg-[#BC8312] hover:text-white hover:shadow-lg">
+            <button className="font-poppins transition-all h-[72px] bg-[#d7c47f] rounded-[24px] w-[100%] hover:bg-[#BC8312] hover:text-white hover:shadow-2xl">
               Discord
             </button>
           </Link>
           <Link className="md:w-[200px] w-[100%]" href="https://discord.gg/meowcoin/">
-            <button className="font-poppins transition-all h-[72px] bg-[#d7c47f] rounded-[24px] w-[100%] hover:bg-[#BC8312] hover:text-white hover:shadow-lg">
+            <button className="font-poppins transition-all h-[72px] bg-[#d7c47f] rounded-[24px] w-[100%] hover:bg-[#BC8312] hover:text-white hover:shadow-2xl">
               Mining
             </button>
           </Link>
           <Link className="md:w-[200px] w-[100%]" href="/donations">
-            <button className="font-poppins transition-all h-[72px] bg-[#d7c47f] rounded-[24px] w-[100%] hover:bg-[#BC8312] hover:text-white hover:shadow-lg">
+            <button className="font-poppins transition-all h-[72px] bg-[#d7c47f] rounded-[24px] w-[100%] hover:bg-[#BC8312] hover:text-white hover:shadow-2xl">
               Donations
             </button>
           </Link>
@@ -35,7 +35,7 @@ export default function Home() {
             className="md:w-[200px] w-[100%]"
             href="https://docs.mewccrypto.com/whitepaper"
           >
-            <button className="font-poppins transition-all h-[72px] bg-[#d7c47f] rounded-[24px] w-[100%] hover:bg-[#BC8312] hover:text-white hover:shadow-lg">
+            <button className="font-poppins transition-all h-[72px] bg-[#d7c47f] rounded-[24px] w-[100%] hover:bg-[#BC8312] hover:text-white hover:shadow-2xl">
               Whitepaper
             </button>
           </Link>

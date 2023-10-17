@@ -33,11 +33,11 @@ export default function Navbar() {
       <div
         className={`${
           menuOpen ? "h-[90%]" : "h-[120px]"
-        } w-[85%] bg-[#d7c47f] translate-x-[-50%] left-[50%] fixed rounded-b-[48px] p-[24px] transition-all z-50 shadow-lg`}
+        } w-[85%] bg-[#d7c47f] translate-x-[-50%] left-[50%] fixed rounded-b-[48px] p-[24px] transition-all z-50 shadow-2xl`}
       >
         <div className="flex justify-between">
           <button
-            className="font-poppins transition-all h-[72px] bg-white text-black rounded-[24px] w-[35%] lg:w-[200px] text-3xl hover:bg-[#BC8312] hover:text-white flex flex-col items-center hover:shadow-lg"
+            className="font-poppins transition-all h-[72px] bg-white text-black rounded-[24px] w-[35%] lg:w-[200px] text-3xl hover:bg-[#BC8312] hover:text-white flex flex-col items-center hover:shadow-2xl"
             onClick={toggleMenu}
           >
             <svg
@@ -63,7 +63,7 @@ export default function Navbar() {
               </div>
             </div>
           </div>
-          <button className="font-poppins transition-all h-[72px] bg-white text-black rounded-[24px] w-[200px] text-3xl lg:block hidden hover:bg-[#BC8312] hover:text-white hover:shadow-lg">
+          <button className="font-poppins transition-all h-[72px] bg-white text-black rounded-[24px] w-[200px] text-3xl lg:block hidden hover:bg-[#BC8312] hover:text-white hover:shadow-2xl">
             <Link href="/donations">Donations</Link>
           </button>
         </div>

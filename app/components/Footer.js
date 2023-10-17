@@ -5,7 +5,7 @@ import { Icon } from "@iconify/react";
 
 export default function Footer() {
   return (
-    <div className="relative h-[360px] w-[85%] bg-[#d7c47f] translate-x-[-50%] left-[50%] rounded-t-[48px] p-[32px] transition-all shadow-lg">
+    <div className="relative h-[360px] w-[85%] bg-[#d7c47f] translate-x-[-50%] left-[50%] rounded-t-[48px] p-[32px] transition-all shadow-2xl">
       <div className="font-grandstander grid grid-cols-2 grid-rows-4 w-[30%] gap-[32px] text-[2vw]">
         <Link className="hover:text-[#bc8312] transition-all" href="/about-us">
           About Us
