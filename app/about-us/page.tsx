@@ -66,7 +66,7 @@ export default function AboutUs() {
           height="0"
         />
       </div>
-      <div className="relative flex flex-col gap-12 justify-center items-center">
+      <div className="relative flex flex-col gap-12 justify-center items-center z-10">
         <div className="w-[75%] h-[480px] grid grid-cols-2 shadow-2xl rounded-[48px]">
           <div className="p-[24px] flex flex-col justify-between bg-[#ffad0c] rounded-l-[48px]">
             <div className="text-black">
