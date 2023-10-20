@@ -76,9 +76,9 @@ export default function Roadmap() {
           </div>
           <div className="p-6 rounded-r-[48px] bg-[#d7c47f] flex col-span-3">
             <div className="font-poppins text-4xl">
-              <div>Aug 27 - Meowcoin's Genesis Block is Mined</div>
+              <div>Aug 27 - Meowcoin&apos;s Genesis Block is Mined</div>
               <div>Sep 5 - Meowcoin Launches to the Public</div>
-              <div>Sep 13 - Meowcoin's First Donation</div>
+              <div>Sep 13 - Meowcoin&apos;s First Donation</div>
             </div>
           </div>
         </div>
