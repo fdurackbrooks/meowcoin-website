@@ -70,38 +70,40 @@ export default function Roadmap() {
         <div className="w-[75%] h-[480px] grid grid-cols-4 shadow-2xl rounded-[48px]">
           <div className="p-[24px] flex flex-col bg-[#bc8312] rounded-l-[48px] items-center justify-center">
             <div className="text-center text-white font-grandstander">
-              <div className="text-9xl">Q4</div>
+              <div className="text-9xl">Q3</div>
               <div className="text-6xl">2022</div>
             </div>
           </div>
           <div className="p-6 rounded-r-[48px] bg-[#d7c47f] flex col-span-3">
-          <div className="font-poppins text-4xl">
-              <div> - Launch</div>
+            <div className="font-poppins text-4xl">
+              <div>Aug 27 - Meowcoin's Genesis Block is Mined</div>
+              <div>Sep 5 - Meowcoin Launches to the Public</div>
+              <div>Sep 13 - Meowcoin's First Donation</div>
             </div>
           </div>
         </div>
         <div className="w-[75%] h-[480px] grid grid-cols-4 shadow-2xl rounded-[48px]">
           <div className="p-6 rounded-l-[48px] bg-[#d7c47f] flex col-span-3">
-          <div className="font-poppins text-4xl">
-              <div> - Launch</div>
+            <div className="font-poppins text-4xl">
+              <div>Nov 25 - Meowcoin has Donated US$10,000</div>
             </div>
           </div>
           <div className="p-[24px] flex flex-col bg-[#bc8312] rounded-r-[48px] items-center justify-center">
             <div className="text-center text-white font-grandstander">
-              <div className="text-9xl">Q1</div>
-              <div className="text-6xl">2023</div>
+              <div className="text-9xl">Q4</div>
+              <div className="text-6xl">2022</div>
             </div>
           </div>
         </div>
         <div className="w-[75%] h-[480px] grid grid-cols-4 shadow-2xl rounded-[48px]">
           <div className="p-[24px] flex flex-col bg-[#bc8312] rounded-l-[48px] items-center justify-center">
             <div className="text-center text-white font-grandstander">
-              <div className="text-9xl">Q2</div>
+              <div className="text-9xl">Q1</div>
               <div className="text-6xl">2023</div>
             </div>
           </div>
           <div className="p-6 rounded-r-[48px] bg-[#d7c47f] flex col-span-3">
-          <div className="font-poppins text-4xl">
+            <div className="font-poppins text-4xl">
               <div> - Launch</div>
             </div>
           </div>
@@ -114,7 +116,7 @@ export default function Roadmap() {
           </div>
           <div className="p-[24px] flex flex-col bg-[#bc8312] rounded-r-[48px] items-center justify-center">
             <div className="text-center text-white font-grandstander">
-              <div className="text-9xl">Q3</div>
+              <div className="text-9xl">Q2</div>
               <div className="text-6xl">2023</div>
             </div>
           </div>
@@ -122,13 +124,26 @@ export default function Roadmap() {
         <div className="w-[75%] h-[480px] grid grid-cols-4 shadow-2xl rounded-[48px]">
           <div className="p-[24px] flex flex-col bg-[#bc8312] rounded-l-[48px] items-center justify-center">
             <div className="text-center text-white font-grandstander">
-              <div className="text-9xl">Q4</div>
+              <div className="text-9xl">Q3</div>
               <div className="text-6xl">2023</div>
             </div>
           </div>
           <div className="p-6 rounded-r-[48px] bg-[#d7c47f] flex col-span-3">
-          <div className="font-poppins text-4xl">
+            <div className="font-poppins text-4xl">
               <div> - Launch</div>
+            </div>
+          </div>
+        </div>
+        <div className="w-[75%] h-[480px] grid grid-cols-4 shadow-2xl rounded-[48px]">
+          <div className="p-6 rounded-l-[48px] bg-[#d7c47f] flex col-span-3">
+            <div className="font-poppins text-4xl">
+              <div> - Launch</div>
+            </div>
+          </div>
+          <div className="p-[24px] flex flex-col bg-[#bc8312] rounded-r-[48px] items-center justify-center">
+            <div className="text-center text-white font-grandstander">
+              <div className="text-9xl">Q4</div>
+              <div className="text-6xl">2023</div>
             </div>
           </div>
         </div>

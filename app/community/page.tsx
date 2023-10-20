@@ -7,8 +7,8 @@ export default function Community() {
   return (
     <div>
       <Navbar />
-      <div className="relative top-[180px] z-10 h-[100vh]">
-        <div className="font-grandstander text-[20vw] md:text-[180px] leading-none font-medium text-center">
+      <div className="relative top-[180px] left-[60px] md:w-[35vw] z-10 h-[100vh]">
+        <div className="font-grandstander text-[20vw] md:text-[180px] leading-none font-medium text-center md:text-left">
           Community
         </div>
         <div className="block md:hidden h-4" />
@@ -46,6 +46,95 @@ export default function Community() {
               Whitepaper
             </button>
           </Link>
+        </div>
+      </div>
+      <svg
+        id="Layer_1"
+        data-name="Layer 1"
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 2273.09 2102.89"
+        fill="#bc8312"
+        className="top-0 right-0 absolute h-[860px] lg:block hidden"
+      >
+        <path d="m336.31,0c4.91,21.19,8.15,43.05,9.37,65.56,12.59,231.79-197.35,339.95-296.52,630.11-101.57,297.18-23.82,600.52,37.07,741.31,259.36,599.73,1323.82,819.45,2112.73,555.98,25.17-8.41,49.84-17.3,74.13-26.55V0H336.31Z" />
+      </svg>
+      <div className="mewc-logo-hero absolute top-[200px] right-[120px] 2xl:block hidden">
+        <Image
+          src="/MeowcoinLogoNoBackground.png"
+          alt="mewc-logo"
+          width="680"
+          height="0"
+        />
+      </div>
+      <div className="relative flex flex-col gap-12 justify-center items-center z-10">
+        <div className="w-[75%] h-[480px] grid grid-cols-3 shadow-2xl rounded-[48px]">
+          <div className="p-[24px] flex flex-col bg-[#bc8312] rounded-l-[48px] items-center justify-center">
+            <div className="text-center text-white font-grandstander">
+              <div className="text-7xl">Social Media</div>
+            </div>
+          </div>
+          <div className="p-6 rounded-r-[48px] bg-[#d7c47f] flex col-span-2">
+            <div className="font-poppins text-4xl">
+              <div>Twitter</div>
+              <div>Reddit</div>
+              <div>Telegram</div>
+              <div>Bitcoin Talk</div>
+              <div>Discord</div>
+              <div>Youtube</div>
+            </div>
+          </div>
+        </div>
+        <div className="w-[75%] h-[480px] grid grid-cols-3 shadow-2xl rounded-[48px]">
+          <div className="p-6 rounded-l-[48px] bg-[#d7c47f] flex col-span-2">
+            <div className="font-poppins text-4xl">
+              <div>
+                Empawrium is an NFT marketplace built on the Meowcoin
+                blockchain. You can create, sell, buy and store assets on
+                Empawrium. Empawrium is a custodial service and doesn't require
+                the installation of any extra applications or wallets to be
+                used.
+              </div>
+            </div>
+          </div>
+          <div className="p-[24px] flex flex-col bg-[#bc8312] rounded-r-[48px] items-center justify-center">
+            <div className="text-center text-white font-grandstander">
+              <div className="text-7xl">Meowcoin Empawrium</div>
+            </div>
+          </div>
+        </div>
+        <div className="w-[75%] h-[480px] grid grid-cols-3 shadow-2xl rounded-[48px]">
+          <div className="p-[24px] flex flex-col bg-[#bc8312] rounded-l-[48px] items-center justify-center">
+            <div className="text-center text-white font-grandstander">
+              <div className="text-7xl">Crypto Exchanges</div>
+            </div>
+          </div>
+          <div className="p-6 rounded-r-[48px] bg-[#d7c47f] flex col-span-2">
+            <div className="font-poppins text-4xl">
+              <div>TradeOgre</div>
+              <div>Xeggex</div>
+              <div>Bitoreum</div>
+              <div>Graviex</div>
+              <div>StakeCube</div>
+            </div>
+          </div>
+        </div>
+        <div className="w-[75%] h-[480px] grid grid-cols-3 shadow-2xl rounded-[48px]">
+          <div className="p-6 rounded-l-[48px] bg-[#d7c47f] flex col-span-2">
+            <div className="font-poppins text-4xl">
+              <div>
+                Empawrium is an NFT marketplace built on the Meowcoin
+                blockchain. You can create, sell, buy and store assets on
+                Empawrium. Empawrium is a custodial service and doesn't require
+                the installation of any extra applications or wallets to be
+                used.
+              </div>
+            </div>
+          </div>
+          <div className="p-[24px] flex flex-col bg-[#bc8312] rounded-r-[48px] items-center justify-center">
+            <div className="text-center text-white font-grandstander">
+              <div className="text-7xl">Press & Interviews</div>
+            </div>
+          </div>
         </div>
       </div>
       <div className="hidden md:block relative">
