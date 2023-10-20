@@ -90,7 +90,7 @@ export default function Community() {
               <div>
                 Empawrium is an NFT marketplace built on the Meowcoin
                 blockchain. You can create, sell, buy and store assets on
-                Empawrium. Empawrium is a custodial service and doesn't require
+                Empawrium. Empawrium is a custodial service and doesn&apos;t require
                 the installation of any extra applications or wallets to be
                 used.
               </div>
@@ -124,7 +124,7 @@ export default function Community() {
               <div>
                 Empawrium is an NFT marketplace built on the Meowcoin
                 blockchain. You can create, sell, buy and store assets on
-                Empawrium. Empawrium is a custodial service and doesn't require
+                Empawrium. Empawrium is a custodial service and doesn&apos;t require
                 the installation of any extra applications or wallets to be
                 used.
               </div>
